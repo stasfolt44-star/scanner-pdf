@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner PDF - Document Scanner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #a8d8ea 0%, #c9e4f0 100%);
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0, 128, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 32px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            display: block;
+            padding: 14px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .btn-outline {
+            background: white;
+            color: #374151;
+            border: 1px solid #e5e7eb;
+        }
+
+        .btn-outline:hover {
+            background: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #4da6ff 0%, #0080ff 100%);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #9ca3af;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 32px 24px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="icon.png" alt="Scanner PDF" class="app-icon">
+
+        <h1>Scanner PDF</h1>
+        <p class="subtitle">Professional document scanning for iPhone</p>
+
+        <div class="buttons">
+            <a href="privacy.html" class="btn btn-outline">Privacy Policy</a>
+            <a href="terms.html" class="btn btn-outline">Terms of Service</a>
+            <a href="mailto:stasfolt44@icloud.com" class="btn btn-outline">Contact Support</a>
+        </div>
+
+        <a href="https://apps.apple.com/app/idXXXXXXXXX" class="btn btn-primary">
+            Download on App Store
+        </a>
+
+        <p class="footer">&copy; 2026 Scanner PDF. All rights reserved.</p>
+    </div>
+</body>
+</html>
